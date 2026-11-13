@@ -17,15 +17,15 @@ public class Aula {
 
                 double IMC = peso / (altura * altura);
 
-                if (IMC < 18.5) {
+                if (IMC <= 18.4) {
                         System.out.println(nome + ", você está abaixo do peso!");
                         System.out.println("IMC respectivo: " + IMC);
 
-                } else if (IMC == 18.5) {
+                } else if (IMC >= 18.5 ) {
                         System.out.println(nome + ", você está no peso adequado!");
                         System.out.println("IMC respectivo: " + IMC);
 
-                } else if (IMC <= 24.9) {
+                } else if (IMC >= 24.9) {
                         System.out.println(nome + ", você está acima do peso!");
                         System.out.println("IMC respectivo: " + IMC);
 
